@@ -6,6 +6,8 @@ public class Sample1_MyJavaP {
 
     public static void main(String[] args) throws Exception {
 
+        // Prints all fields, constructors and methods of given type.
+
         Class cls;
 
         cls = Class.forName(args[0]);
