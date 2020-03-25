@@ -1,8 +1,8 @@
-package reflection.sample1;
+package samples.reflection;
 
 import java.lang.reflect.*;
 
-public class MyJavaP {
+public class Sample1_MyJavaP {
 
     public static void main(String[] args) throws Exception {
 
