@@ -8,9 +8,12 @@ class Brackets_Sample4 {
 
      */
 
+    // Lock should not be accessed from outside.
+    private Object lock = "lock";
+
     public void generate() {
 
-        synchronized(this) {
+        synchronized(lock) {
             for (int i = 1; i <= 10; i++) {
 
                 try {
