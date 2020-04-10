@@ -28,7 +28,7 @@ class Brackets {
     }
 }
 
-public class Sample3_SynchronizedObject {
+public class Sample3_SynchronizedMethod {
 
     public static void main(String[] args) {
 
